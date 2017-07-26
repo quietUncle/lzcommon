@@ -1,0 +1,31 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //Libraries
+    core = "1.1.4-SNAPSHOT"
+    PtrLayout = "1.0.8-SNAPSHOT"
+    contract = "1.1.2-SNAPSHOT"
+    utils = "1.0.8-SNAPSHOT"
+    imageload = "1.0.9-SNAPSHOT"
+    customtablayout = "1.0.4-SNAPSHOT"
+    andjump = "1.0.5-SNAPSHOT"
+    andjumpcompiler = "1.0.5-SNAPSHOT"
+    router = "1.0.1-SNAPSHOT"
+    views = "1.0.5-SNAPSHOT"
+    lzSdkDependencies = [
+            core           : "com.longzhu.sdk:core:${core}",
+            PtrLayout      : "com.longzhu.sdk:PtrLayout:${PtrLayout}",
+            contract       : "com.longzhu.sdk:contract:${contract}",
+            utils          : "com.longzhu.sdk:utils:${utils}",
+            imageload      : "com.longzhu.sdk:imageload:${imageload}",
+            customtablayout: "com.longzhu.sdk:customtablayout:${customtablayout}",
+            andjump        : "com.longzhu.sdk:andjump:${andjump}",
+            andjumpcompiler: "com.longzhu.sdk:andjumpcompiler:${andjumpcompiler}",
+            router         : "com.longzhu.sdk:router:${router}",
+            views          : "com.longzhu.sdk:views:${views}",
+    ]
+}
